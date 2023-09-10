@@ -17,6 +17,7 @@ document.getElementById('submit-article').addEventListener('click', function () 
         document.getElementById('article-image').value = '';
 
         alert('Artikel berhasil dibuat!');
+        window.location.href = "article.html";
     } else {
         alert('Judul dan isi artikel harus diisi.');
     }
